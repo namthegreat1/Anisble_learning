@@ -1,0 +1,14 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+    - name: install httpd package
+      yum:
+        name: httpd
+
+    - name: install mysql
+      yum:
+        name: mysql 
+        state: latest 
+
