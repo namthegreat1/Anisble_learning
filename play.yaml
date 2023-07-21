@@ -1,0 +1,6 @@
+## pinging these mf..servers
+---
+  - hosts: all
+    tasks:
+    - name: ping these damn servers
+      action: ping

@@ -1,0 +1,7 @@
+## uname
+
+---
+  - hosts: all
+    tasks:
+      - name: get these damn OS types
+        shell: uname
